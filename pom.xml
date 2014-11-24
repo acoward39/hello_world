@@ -4,3 +4,8 @@
   <artifactId>jenkins-test</artifactId>
   <version>1</version>
 </project>
+<build>
+    <defaultGoal>package</defaultGoal>
+    <sourceDirectory>src</sourceDirectory>
+    <outputDirectory>target</outputDirectory>	
+</build>
